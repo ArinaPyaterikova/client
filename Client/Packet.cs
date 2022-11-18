@@ -8,10 +8,9 @@ namespace Client
     public enum PacketType : uint
     {
         RequestJoin = 6,
-        JoinAck,
         IsHere,
+        JoinAck,
         GameStartAck,
-        PaddlePosition,
     }
     public class Packet
     {
